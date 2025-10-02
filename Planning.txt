@@ -9,6 +9,8 @@ Possible libraries:
   -Very accurate, easier to perform data analysis since data is more accessible
 -CryptoDataPy
   -Allows a lot of data to be downloaded at once, order books might be less accessible
+-Yahoo Finance
+  -I've had experience with this previously, I imagine I'll be using this
 Needed Libraries:
 -datetime
 -pandas
