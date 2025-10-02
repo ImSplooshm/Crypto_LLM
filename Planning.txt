@@ -1,0 +1,47 @@
+---------
+STEP ONE
+---------
+Set up the backtesting framework
+Possible libraries:
+-Lumibot?
+  -Free to use with alpaca, accurate, easy to use to live trade/paper trade/backtest
+-CoinGecko API
+  -Very accurate, easier to perform data analysis since data is more accessible
+-CryptoDataPy
+  -Allows a lot of data to be downloaded at once, order books might be less accessible
+Needed Libraries:
+-datetime
+-pandas
+
+Wanted Libraries:
+-colorama
+---------
+STEP 2
+---------
+Start to develop ML models
+
+Possible methods:
+-Random forests
+  -Very addaptive, takes many inputs
+-Linear regression
+  -Unreliable normally, but correlation could occur if I use order books to predict sign and magnitude of movements since cypto movement is largely based on previous prices, compared to stocks/forex which takes a lot of news influence.
+
+
+---------
+STRUCTURE
+---------
+
+analysis.py
+-Range of classes/functions analysing a crypto
+  -Correlations with different variables
+  -Price distribution exploration
+  -TA values?
+    -Already coded a functioning TA function library so could make use of this
+  -Arbitrage correlation with other values
+    -For example, similar to gold vs stocks, as gold increases in value, stocks decrease; maybe Forex decreases slightly if crypto becomes more favourable
+
+backtest.py
+-Might not be necessary
+  -Could use TradingView and PineScript v6 to backtest and live test algorithms
+  -Cannot use leverage or ML models, it must be algorithmic models
+
