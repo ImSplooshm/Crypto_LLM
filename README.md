@@ -1,2 +1,2 @@
-# Crypto_LLM
-Cryptocurrency LLM trading framework and algorithms
+# Crypto_ ML
+Cryptocurrency ML trading framework and algorithms
